@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        #pass{
+            display: block;
+            margin: auto;
+            height: 20px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 7px;
+            font-weight: bold;
+        }
+        #email{
+            display: block;
+            margin: auto;
+            height: 20px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 7px;
+            font-weight: bold;
+        }
+        div{
+            background-color: rgb(26, 255, 209);
+            min-width: 300px;
+            max-width: 350px;
+            height: 200px;
+            border-radius: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 100px;
+            box-shadow: 2px 3px 8px rgba(8, 8, 8, 0.564);
+        }
+        #b{
+            display: block;
+            margin: auto;
+            width: 90px;
+            height: 50px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        div h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header{
+            background-image: linear-gradient(to right, rgba(60, 60, 200, 0.838), rgba(42, 42, 255, 0.349));
+            height: 100px;
+            padding: 10px;
+        }
+        header h1{
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            margin-top: 25px;
+        }
+        #b a{
+            text-decoration: none;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Gestão para Merenda Escolar</h1>
+    </header>
+    <div>
+        <h1>Login</h1>
+        <input id="email" type="text" placeholder="Email">
+        <br>
+        <input id="pass" type="password" placeholder="Senha">
+        <br>
+        <button id="b"><a href="index.html">Login</a></button>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

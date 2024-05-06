@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="/eu/eu-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="/eu/eu-m.jpg" type="image/jpg">
+
+
+        <img src="/eu/eu-g.jpg" alt="grande">
+
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <audio src="/midia/ta-enganando-o-cliente.mp3" controls></audio>
+    <h1>Rodando videos localmente</h1>
+    <h2>Videos hospedado no próprio servidor!</h2>
+
+    <video width="560" src="/midia/Video.mp4" controls poster="/Imagens/Tumb.png" lo></video>
+
+    <!--<video controls>
+        <source src="/midia/Video.mp4" type="video/mp4">
+        <source src="/midia/Video.mkv" type="video/mkv">
+        <source src="/midia/Video.webm" type="video/webm">
+    </video>-->
+    <h1>Videos exportados de outros lugares Recomendado!!</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=KvbXn6SLbTdPlbnm&amp;controls"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+</body>
+
+</html>
